@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<style>
+.col-md-1, .col-md-4, .col-md-6, .col-md-8, .col-md-12 {
+	border: 1px solid red;
+	padding: 10px;
+}
+
+.row {
+	margin-bottom: 4px;
+	margin-top: 4px;
+}
+.pad10 {
+    padding: 10px;
+    border-color: blue;
+    background-color: #c0c0c0;
+}
+</style>
+</head>
+<body>
+     <div class="container">
+         <div class="row">
+             <div class="col-md-8"> .col-md-8
+                 <div class="row"> 
+                     <div class="col-md-4 pad10">
+                         .col-md-4<br>
+                         내부 12개 그리드 중 4개
+                     </div>
+                     <div class="col-md-8 pad10">
+                         .col-md-8<br>
+                         내부 12개 그리드 중 8개
+                     </div>
+                 </div>
+             </div>
+             
+             <div class="col-md-4"> .col-md-4
+                 <div class="row">
+                     <div class="col-md-6 pad10">
+                          .col-md-6<br>
+                          내부 12개 그리드 중 6개
+                     </div>
+                      <div class="col-md-6 pad10">
+                          .col-md-6<br>
+                          내부 12개 그리드 중 6개
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+</body>
+</html>
